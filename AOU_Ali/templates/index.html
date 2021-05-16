@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Directing Template">
+    <meta name="keywords" content="Directing, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" content-type="text/plain">
+    <title>AOU Analytically</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="static/css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="static/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="static/css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="static/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero set-bg" data-setbg="static/img/Background.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero__text">
+                        <div class="section-title">
+                            <h2>AOU Analytically</h2>
+                            <p>Compare your data & get intuitions easily</p>
+                        </div>
+                        <div class="hero__search__form">
+                            <form action="/results" method="POST">
+                                <div class="select__option">
+                                    <select name="analysis_wanted">
+                                        <option value="">Choose data to show..</option>
+                                        <option value="Distripution of students numbers in every study field">Distripution of students numbers in every study field</option>
+                                        <option value="Number of bus students relative to years">Number of bus students relative to years</option>
+                                        <option value="Number of english students relative to years- All">Number of english students relative to years- All</option>
+                                        <option value="Number of IT students relative to years- All">Number of IT students relative to years- All</option>
+                                        <option value="Number of media students relative to years- All<">Number of media students relative to years- All</option>
+                                        <option value="Number of graphic students relative to years- All">Number of graphic students relative to years- All</option>
+                                        <option value="Number of students for all study fields relative to years -Genderdized">Number of students for all study fields relative to years -Genderdized</option>
+                                        <option value="Number of bus students relative to secondary school">Number of bus students relative to secondary school</option>
+                                        <option value="Number of english students relative to secondary school">Number of english students relative to secondary school</option>
+                                        <option value="Number of IT students relative to secondary school">Number of IT students relative to secondary school</option>
+                                        <option value="Number of media students relative to secondary school">Number of media students relative to secondary school</option>
+                                        <option value="Number of graphic students relative to secondary school">Number of graphic students relative to secondary school</option>
+                                        <option value="Number of bus students relative to both year & secondary school">Number of bus students relative to both year & secondary school</option>
+                                        <option value="Number of english students relative to both year & secondary school">Number of english students relative to both year & secondary school</option>
+                                        <option value="Number of IT students relative to both year & secondary school">Number of IT students relative to both year & secondary school</option>
+                                        <option value="Number of media students relative to both year & secondary school">Number of media students relative to both year & secondary school</option>
+                                        <option value="Number of graphic students relative to both year & secondary school">Number of graphic students relative to both year & secondary school</option>
+
+                                    </select>
+                                </div>
+                                <button >Show Results</button>
+                                <div >
+                                <img style="margin-top: 50px; margin-right: 20px;" src={{ user_image }}>
+                                <p style="font-size: 20px;text-align: center;margin-top: 15px;color:black">{{result}}</p>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Js Plugins -->
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery.nice-select.min.js"></script>
+    <script src="static/js/jquery-ui.min.js"></script>
+    <script src="static/js/jquery.nicescroll.min.js"></script>
+    <script src="static/js/jquery.barfiller.js"></script>
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/jquery.slicknav.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/main.js"></script>
+</body>
+
+</html>
